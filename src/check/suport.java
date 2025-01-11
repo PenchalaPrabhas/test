@@ -1,7 +1,17 @@
 package check;
 
-public class suport {
-public static void main(String[] args) {
-	System.out.println("its working now nice ");
-}
+public class suport
+
+{
+	int a;
+
+	suport(int x) {
+		a = x;
+	}
+
+	public static void main(String[] args) {
+		suport a = new suport(5);
+		System.out.println(a.a);
+		System.out.println(a + "its working now nice ");
+	}
 }
