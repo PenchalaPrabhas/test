@@ -49,7 +49,7 @@ public class HelloWorld
 				break;
 		case 2: System.out.println("tuesday");
 				break;
-		default : System.out.println("no day");
+		default : System.out.println("no day ");
 		}
 	}
 }
